@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '172.0.0.1',
-    'https://igs-alura-pizza.herokuapp.com/',
+    'igs-alura-pizza.herokuapp.com',
 ]
 
 
