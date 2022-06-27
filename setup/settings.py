@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    '172.0.0.1',
+    '127.0.0.1',
     'igs-alura-pizza.herokuapp.com',
 ]
 
@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'restaurante',
 ]
 
 MIDDLEWARE = [
